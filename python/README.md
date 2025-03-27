@@ -19,3 +19,11 @@ Note: title() doesn’t always work well for words with mixed capitalization lik
 -Good for formatting sentences to start with a capital letter.
 # str.swapcase() 
 is a string method that returns a new string with all uppercase letters converted to lowercase and all lowercase letters converted to uppercase.
+# str.find()
+Returns the lowest index where the substring sub is found within the string.
+If sub is not found, it returns -1 (instead of raising an error).
+start and end are optional arguments specifying the search range.
+The index where the search should begin (default is 0).
+# str.index()
+The .index() method is similar to .find(), but with one key difference:
+Instead of returning -1 when a substring is not found, it raises a ValueError exception.
