@@ -17,3 +17,5 @@ Note: title() doesn’t always work well for words with mixed capitalization lik
 -Capitalizes only the first letter of the entire string.
 -The rest of the string is converted to lowercase.
 -Good for formatting sentences to start with a capital letter.
+# str.swapcase() 
+is a string method that returns a new string with all uppercase letters converted to lowercase and all lowercase letters converted to uppercase.
