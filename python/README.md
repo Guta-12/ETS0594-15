@@ -27,3 +27,24 @@ The index where the search should begin (default is 0).
 # str.index()
 The .index() method is similar to .find(), but with one key difference:
 Instead of returning -1 when a substring is not found, it raises a ValueError exception.
+# str.startswith()
+Checks if a string starts with a specified prefix.
+Parameters:
+prefix: The substring to check for.
+start : The position to start checking.
+end : The position to stop checking.
+Returns True if the string starts with the prefix, otherwise False.
+# str.endswith()
+Checks if a string ends with a specified suffix.
+Parameters:
+suffix: The substring to check for.
+start : The position to start checking.
+end : The position to stop checking.
+Returns True if the string ends with the suffix, otherwise False
+# str.count()
+Counts the number of occurrences of a substring in a string.
+Parameters:
+sub: The substring to count.
+start : The position to start counting.
+end : The position to stop counting.
+Returns the count of occurrences.
