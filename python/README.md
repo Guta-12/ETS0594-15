@@ -31,7 +31,7 @@ Instead of returning -1 when a substring is not found, it raises a ValueError ex
 Checks if a string starts with a specified prefix.
 Parameters:
 prefix: The substring to check for.
-start : The position to start checking.
+start: The position to start checking.
 end : The position to stop checking.
 Returns True if the string starts with the prefix, otherwise False.
 # str.endswith()
@@ -48,3 +48,10 @@ sub: The substring to count.
 start : The position to start counting.
 end : The position to stop counting.
 Returns the count of occurrences.
+# str.replace()
+Replaces occurrences of a substring (old) with another substring (new).
+Optional count specifies the maximum number of replacements.
+# str.strip()
+Removes leading and trailing whitespace (by default) or specified characters.
+ # str.lstrip()
+Removes leading (left-side) whitespace or specified characters.
