@@ -55,3 +55,9 @@ Optional count specifies the maximum number of replacements.
 Removes leading and trailing whitespace (by default) or specified characters.
  # str.lstrip()
 Removes leading (left-side) whitespace or specified characters.
+ # str.rstrip()
+This method returns a copy of the string with trailing whitespace removed. By default, it removes spaces, tabs, and newlines from the end of the string.
+# str.split()
+This method splits a string into a list of substrings based on a specified delimiter (separator). By default, it splits by any whitespace and removes extra whitespace.
+# str.join()
+This method returns a string that is the concatenation of the elements of an iterable (like a list or tuple), with the string on which it is called as the separator.
