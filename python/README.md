@@ -61,3 +61,10 @@ This method returns a copy of the string with trailing whitespace removed. By de
 This method splits a string into a list of substrings based on a specified delimiter (separator). By default, it splits by any whitespace and removes extra whitespace.
 # str.join()
 This method returns a string that is the concatenation of the elements of an iterable (like a list or tuple), with the string on which it is called as the separator.
+# str.isalpha()
+Returns True if all characters in the string are alphabetic (i.e., letters only, no spaces, numbers, or symbols).
+# str.isdigit()
+Returns True if all characters in the string are digits (0-9).
+# str.isalnum()
+Returns True if all characters in the string are either letters or digits (no spaces or special characters).
+
