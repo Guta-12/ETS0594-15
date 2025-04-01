@@ -67,4 +67,9 @@ Returns True if all characters in the string are alphabetic (i.e., letters only,
 Returns True if all characters in the string are digits (0-9).
 # str.isalnum()
 Returns True if all characters in the string are either letters or digits (no spaces or special characters).
-
+# str.isspace()
+This method checks if a string consists only of whitespace characters (spaces, tabs, newlines, etc.). It returns True if all characters in the string are whitespace and False otherwise.
+# str.format()
+The .format() method is used to insert values into a string using placeholders ({}). It is a flexible way to format strings.
+# f-strings ()
+f-strings provide an even more convenient way to format strings by using f"" before the string and embedding expressions inside {}.
