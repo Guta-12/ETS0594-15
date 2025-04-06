@@ -1,4 +1,5 @@
-The  method in Python is part of the string class, and its primary purpose is to check if all the alphabetic characters in a string are uppercase. It is frequently used in text processing when determining whether a string satisfies certain case-related conditions. 
+# isupper
+ the string class, and its primary purpose is to check if all the alphabetic characters in a string are uppercase. It is frequently used in text processing when determining whether a string satisfies certain case-related conditions. 
 Return Value: A boolean value:
 Returns True if all the alphabetic characters in the string are uppercase
 Returns False otherwise.
@@ -73,3 +74,13 @@ This method checks if a string consists only of whitespace characters (spaces, t
 The .format() method is used to insert values into a string using placeholders ({}). It is a flexible way to format strings.
 # f-strings ()
 f-strings provide an even more convenient way to format strings by using f"" before the string and embedding expressions inside {}.
+# len()
+The len() function in Python returns the number of items in an object.For strings, it returns the number of characters.For lists, tuples, etc., it returns the number of elements.
+# islower()
+The .islower() method checks if all alphabetic characters in a string are lowercase     retur true if
+There's at least one alphabetic character and
+All letters in the string are lowercase. return false  if
+There's any uppercase letter
+Or no letters at all (e.g., only digits or symbols)
+
+
