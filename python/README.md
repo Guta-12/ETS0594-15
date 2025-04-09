@@ -82,5 +82,6 @@ There's at least one alphabetic character and
 All letters in the string are lowercase. return false  if
 There's any uppercase letter
 Or no letters at all (e.g., only digits or symbols)
-
+# encode()
+The str.encode() method in Python is used to encode a string into bytes using a specified encoding (default is 'utf-8').
 
