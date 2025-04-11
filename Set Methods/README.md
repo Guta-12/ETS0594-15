@@ -7,3 +7,9 @@
  # .update()
   adds all elements from an iterable (like a list, tuple, set, or even a string) to the set.It adds each item from the iterable to the set.Duplicates are ignored (as always with sets).The set is updated in-place (no return value).
 
+# remove(elem)	
+Removes the element from the set. Raises KeyError if not found.
+# discard(elem)
+Removes the element if present. Does not raise an error if not found.
+# pop()
+Removes and returns an arbitrary element. Raises KeyError if empty.
